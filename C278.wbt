@@ -1,0 +1,36 @@
+#VRML_SIM R2023b utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/boston_dynamics/spot/protos/Spot.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/solids/protos/SolidBox.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/balls/protos/FifaSoccerBall.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation 0.1465630973347524 -0.04940433394531326 -0.9879668366332263 3.784527624038173
+  position 5.680246376487233 -2.340101504359323 2.770541884347777
+}
+SolidBox {
+  translation 1.07481 1.92786 0.34379
+  rotation -0.5915359370082287 -0.7862159162770509 0.17874498096571612 0.0309711
+  size 0.5 0.5 0.5
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  translation 0.1 0 0
+  floorSize 6 6
+  floorTileSize 1 1
+  wallThickness 0.05
+  wallHeight 0.5
+}
+Spot {
+}
+FifaSoccerBall {
+  translation 1 1 0.12
+}
